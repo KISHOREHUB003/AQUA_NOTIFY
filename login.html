@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AquaNotify</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+    
+    header {
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+    }
+    
+    header h1 {
+      margin: 0;
+    }
+    
+    nav {
+      margin-top: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background-color: #666;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto; 
+      margin-left: 100px;
+      margin-top: 165px;  
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .container h2 {
+      text-align: center;
+    }
+    
+    .container .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .container .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .container .form-group input {
+      width: 100%;
+      padding: 7px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    .container .select button {
+      width: 150px;
+      margin-left: 125px;
+      padding: 10px;
+      background-color: #1583ea;
+      color: #fff;
+      border: none; 
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 45x;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Administrator Login</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      </div>
+      <div class="select">
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
